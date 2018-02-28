@@ -12,10 +12,10 @@ class StringReverse:
         self.stringValue = stringVal
     
     def reverseString(self):
-        str = ""
+        stringV = ""
         for i in self.stringValue:
-            str = i + str
-        return str
+            stringV = i + stringV
+        return stringV
 
 newStringObj = StringReverse("lanirM")
   
